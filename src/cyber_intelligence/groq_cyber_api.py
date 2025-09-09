@@ -16,10 +16,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
 
-from groq_multi_llm_pipeline import EnhancedGroqMultiLLMPipeline
-from smart_cache import SmartCacheManager
-from response_enhancer import ResponseQualityEnhancer
-from database_optimizer import DatabaseOptimizationEngine
+from src.cyber_intelligence.groq_multi_llm_pipeline import EnhancedGroqMultiLLMPipeline
+from src.cyber_intelligence.smart_cache import SmartCacheManager
+from src.cyber_intelligence.response_enhancer import ResponseQualityEnhancer
+from src.cyber_intelligence.database_optimizer import DatabaseOptimizationEngine
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
