@@ -7,3 +7,17 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.10
+      - key: SUPABASE_URL
+        value: ${SUPABASE_URL}
+      - key: SUPABASE_KEY
+        value: ${SUPABASE_KEY}
+      - key: GROQ_FAST_KEY
+        value: ${GROQ_FAST_KEY}
+      - key: GROQ_CODING_KEY
+        value: ${GROQ_CODING_KEY}
+      - key: GROQ_ACCOUNT2_KEY
+        value: ${GROQ_ACCOUNT2_KEY}
+      - key: PORT
+        value: 10000
+      - key: HOST
+        value: 0.0.0.0
